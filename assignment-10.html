@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>personal website</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		/*        header */
+		#logo,
+		ul {
+			display: inline-block;
+
+		}
+
+		nav ul {
+			position: absolute;
+			right: 40px;
+		}
+
+		nav li {
+			display: inline;
+
+		}
+
+		nav {
+			background: #2c3e50;
+			color: white;
+			font-size: 25px;
+			font-family: 'Montserrat', sans-serif;
+			text-transform: uppercase;
+			font-weight: bolder;
+
+			padding: 35px 50px
+		}
+
+		nav a {
+			color: white;
+			text-decoration: none;
+			padding-left: 30px;
+			font-size: 16px;
+
+		}
+
+		nav a:hover {
+			color: #1abc9c
+		}
+
+		#banner {
+			background-color: #1abc9c;
+			text-align: center;
+			color: white;
+			padding-top: 100px;
+			padding-bottom: 100px
+		}
+
+		#banner img {
+			width: 220px;
+
+		}
+
+		header h1 {
+			margin-top: 40px;
+			font-size: 67.4px;
+			font-family: 'Montserrat', sans-serif;
+			text-transform: uppercase;
+			font-weight: bolder;
+
+		}
+
+		hr {
+			background-color: white;
+			border: none;
+			width: 300px;
+			height: 5px;
+			border-color: white;
+			margin: 38px auto;
+			border-radius: 5px;
+
+		}
+
+		header h3 {
+			font-family: 'Montserrat', sans-serif;
+			font-size: 25px;
+			font-weight: 400;
+		}
+
+		/* portfolio */
+		#portfolio {
+			text-align: center
+		}
+
+		h2 {
+			font-size: 3rem;
+			font-family: 'Montserrat', sans-serif;
+			text-transform: uppercase;
+			color: #2c3e50;
+			margin: auto;
+			margin-top: 6rem;
+			text-align: center;
+		}
+
+		#portfolio hr {
+			background-color: #2c3e50;
+		}
+
+		#portfolio img {
+			border-radius: 30px;
+			width: 300px;
+			height: 300px;
+			margin: 20px;
+			margin: auto;
+			padding-bottom: 50px;
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+
+		/*  about */
+		#about {
+			border: solid #1ABC9C;
+			background-color: #1ABC9C;
+			color: white;
+			margin-top: 50px;
+			padding-bottom: 100px;
+			text-align: center;
+		}
+
+		#about h2 {
+			color: white;
+			font-weight: bolder;
+		}
+
+		p {
+			text-align: left;
+			font-size: 1.25rem;
+			font-family: 'Montserrat', sans-serif;
+			column-count: 2;
+			column-gap: 50px;
+			width: 70%;
+			margin: auto;
+		}
+
+		#about a {
+			font-family: 'Montserrat', sans-serif;
+			text-decoration: none;
+			font-size: 26px;
+			border: solid;
+			color: white;
+			padding: 15px 20px;
+			border-radius: 10px;
+			margin-top: 60px;
+			display: inline-block;
+		}
+
+		/* Contact Me	*/
+
+		button {
+			width: 75px;
+			height: 50px;
+			background-color: #1abc9c;
+			color: white;
+			border-radius: 10%;
+			margin-left: 15%;
+			margin-top: 30px;
+			margin-bottom: 50px;
+			display: block;
+			border: none;
+			padding: 15px 20px;
+			font-weight: 520
+		}
+
+		input,
+		textarea {
+			font-size: 25px;
+			color: #dedede;
+			padding: 30px 0 30px 0;
+			border: none;
+			border-bottom: solid 1px;
+			width: 70%;
+			resize: none;
+		}
+
+
+		#contactme {
+			text-align: center;
+			font-family: sans-serif;
+		}
+
+		#title2 {
+			text-align: center;
+			font-size: 3rem;
+			font-family: 'Montserrat', sans-serif;
+			margin-top: 50px;
+			color: #2c3e50;
+			font-weight: 00
+		}
+
+		#po {
+			color: #2c3e50;
+		}
+
+		/*	footer	*/
+
+		footer {
+			background-color: #2C3E50;
+			color: white;
+			text-align: center;
+			padding: 100px 0;
+		}
+
+		footer #title {
+			color: white;
+			font-size: 27px;
+			margin-bottom: 30px;
+
+		}
+
+		footer section adress {
+			font-size: 22px;
+			font-style: normal
+		}
+
+		footer section {
+			border: ;
+			margin-bottom: 43px;
+		}
+
+		footer section i {
+			font-size: 23px;
+			border: solid 2px;
+			border-radius: 50%;
+			width: 50px;
+			height: 50px;
+			padding-top: 11.8px;
+			box-sizing: border-box
+		}
+
+		footer section p {
+			text-align: center;
+			column-count: 1;
+		}
+
+		footer {
+			font-family: 'Montserrat', sans-serif;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<div id="logo">Start Bootstrap</div>
+			<ul>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</nav>
+
+		<div id="banner">
+			<img src="https://blackrockdigital.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="">
+			<h1>start bootstrap</h1>
+			<hr>
+			<h3>Graphic artist - Web designer - Illustrator</h3>
+
+		</div>
+	</header>
+
+	<div id="portfolio">
+		<h2 id="h21">portfolio</h2>
+		<hr>
+		<img src="https://us.123rf.com/450wm/seregasss435/seregasss4351903/seregasss435190300379/119590378-stock-vector-wooden-house-barn-with-wood-modular-log-cabins-wood-cabin-modular-homes-icon-outline-black-color-vec.jpg?ver=6" alt="">
+		<img src="https://lh3.googleusercontent.com/proxy/tIXmqoBP6xeDzyFz_fpO0WkOSMQpVDn1WsdXmBRUqP3AB7r4-J06TXyCEo64FFoCf0a9bCYUP5GviTU6uGBbR3-8itlL3eE" alt="">
+		<img src="https://webstockreview.net/images/circus-clipart-simple.png" alt="">
+		<br>
+		<img src="https://webstockreview.net/images/controller-clipart-input-device-5.png" alt="">
+		<img src="https://1001freedownloads.s3.amazonaws.com/vector/thumb/84147/1332757963.png" alt="">
+		<img src="https://s.clipartkey.com/mpngs/s/23-231689_submarine-clipart-to-printable-to-submarine-clipart-png.png" alt="">
+	</div>
+
+	<div id="about">
+		<h2 id="h22">About</h2>
+		<hr>
+		<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+
+			You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Free Download!</a>
+	</div>
+
+	<section id='contact'>
+		<div id="title2">Contact Me</div>
+		<hr id="po">
+		<div id="contactme">
+			<input type="text" placeholder="Name">
+			<input type="text" placeholder="Email Address">
+			<input type="text" placeholder="Phone Number">
+			<textarea rows="7" placeholder="Message"></textarea>
+			<br>
+			<button>Send</button>
+		</div>
+
+		<footer>
+			<div id="info">
+				<section>
+					<div id="title">Location</div>
+					<address>
+						2215 John Daniel Drive
+						<br>
+						Clark, MO 65243
+					</address>
+				</section>
+				<section>
+					<div id="title">Around the web</div>
+
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-twitter-square"></i>
+					<i class="fab fa-linkedin"></i>
+					<i class="fas fa-basketball-ball"></i>
+
+				</section>
+				<section>
+					<div id="title">About freelancer</div>
+					<p>Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap.</p>
+				</section>
+
+
+
+			</div>
+			<div id="copywrite"></div>
+
+		</footer>
+	</section>
+
+
+</body>
+
+</html>

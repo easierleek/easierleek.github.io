@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#face {
+			width: 300px;
+			height: 300px;
+			background-color: yellow;
+			border-radius: 50%;
+			position: relative;
+		}
+
+		.eye {
+			width: 55px;
+			height: 55px;
+			border: solid;
+			background-color: white;
+			position: absolute;
+			border-radius: 50%;
+		}
+
+		#eye1 {
+
+			right: 45px;
+			top: 55px
+		}
+
+		#eye2 {
+
+			left: 45px;
+			top: 56.3px
+		}
+
+		.pupil {
+			border: solid;
+			width: 40px;
+			height: 40px;
+			background-color: black;
+			border-radius: 50%;
+			position: absolute;
+			right: 6.8px;
+			top: 3.7px
+		}
+
+		#mouth {
+			border: solid 5px;
+			position: absolute;
+			bottom: 61.3px;
+			left: 52.3px;
+			width: 175px;
+			border-radius: 50%;
+			height: 100px;
+			border-top-color: transparent;
+			border-left-color: transparent;
+			border-right-color: transparent
+		}
+		
+		.corner {
+			width: 20px;
+			height: 30px;
+			background-color: black;
+			position: absolute;
+			border-radius:32%;
+			top: 71.4px;
+			
+		}
+		
+		#corner1 {
+			transform: rotate(45deg)
+				
+		}
+		
+		#corner2 {
+			top:77.5px;
+			left: 151.2px;
+			transform: rotate(146.7deg)
+		}
+	</style>
+</head>
+
+<body>
+	<div id="face">
+		<div class="eye" id="eye1">
+			<div class="pupil"></div>
+		</div>
+		<div class="eye" id="eye2">
+			<div class="pupil"></div>
+		</div>
+		<div id="mouth">
+			<div class="corner" id="corner1"></div>
+			<div class="corner" id="corner2"></div>
+		</div>
+
+	</div>
+
+</body></html>
+
+

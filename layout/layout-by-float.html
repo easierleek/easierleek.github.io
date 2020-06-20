@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#container {
+			width: 500px;
+			height: 500px;
+			border: solid;
+			;
+		}
+
+		#item1,
+		#item2 {
+			width: 200px;
+			height: 200px;
+			border: solid;
+		}
+
+		#item1 {
+
+			background-color: blue;
+			opacity: 0.5;
+			float: left
+		}
+
+		#item2 {
+			background-color: lime;
+			float: right;
+			opacity: 0.5;
+			height: 300px
+		}
+
+		p {
+			border: solid;
+			/* dont put any floating elements on left			*/
+			clear: left
+		}
+	</style>
+</head>
+
+<body>
+	<div id="container">
+		<div id="item1">left</div>
+		<div id="item2">right</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa, sunt saepe soluta, obcaecati odit exercitationem quis, aut quisquam error nobis quo blanditiis quos, libero esse! Voluptatem cum, ipsum itaque!</p>
+	</div>
+
+
+</body></html>

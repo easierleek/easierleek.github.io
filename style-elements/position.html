@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#container {
+			border: solid 10px;
+			width: 400px;
+			/*			overflow: auto;*/
+			height: 400px;
+			/*			position: relative;*/
+		}
+
+		.item {
+			width: 200px;
+			height: 200px;
+		}
+
+		#item1 {
+			border: solid green;
+			position: relative;
+			right: 100px;
+			/* relative is relative to the element's orignal position	*/
+		}
+
+		#item2 {
+			border: solid blue;
+			position: absolute;
+			right: 100px;
+			/* absolute means element to its closest container which has a non static positon		*/
+		}
+
+		#item3 {
+			border: solid red;
+			position:fixed;       
+			/* fixed position is relative to the viewport!!!!!*/
+			width: 300px;
+			height: 300px;
+			botttom: 50px;
+			right: 50px;
+		
+		}
+	</style>
+</head>
+
+<body>
+	<div id="container">
+		<div class="item" id="item1"></div>
+		<div class="item" id="item2"></div>
+		<div class="item" id="item3"></div>
+	</div>
+</body></html>
